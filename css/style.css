@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", system-ui;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    gap: 20px;
+}
+
+
+.criptografar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.descriptografar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#cript{
+    resize:none;
+    width: 320px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+#descri{
+    resize:none;
+    width: 320px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+
+input{
+    width: 240px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid;
+
+}
+
+button{
+    border-radius: 5px;
+    border: 0.5px solid;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+h1{
+    display: flex;
+    padding: 200px;
+    justify-content: center;
+}
+
